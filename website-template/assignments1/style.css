@@ -1,0 +1,55 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	font-family: Trebuchet MS;
+	background: #fc032d;
+	color:#0303fc;
+}
+
+
+div#container {
+	margin: auto;
+	margin-top: 30px;
+	width: 1000px;
+	border: 1px solid #000000;
+	padding: 15px;
+}
+
+
+header{
+	font-family: Arial;
+	color: #f22283;
+	background: #6c91e0;
+	border: 1px solid #000000;
+	padding:20px; 
+	padding-top: 12px; 
+	border-radius: 4px; 
+	margin: 10px;
+}
+p{
+	color: #5ab0f2;
+	background: #f7f4a1;
+	border: 1px solid #000000;
+	padding:20px; 
+	padding-top: 12px; 
+	border-radius: 4px; 
+	margin: 10px;
+}
+
+footer{
+	font-size:0.9em;
+}

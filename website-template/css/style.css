@@ -1,0 +1,85 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;d
+}
+
+
+
+
+body {
+	background:#facfdb;
+	color:#870fd6;
+	font-family:optima, Arial Narrow;
+}
+
+#container{
+	background: #9fe7fc;
+	width:800px;
+	/*width:8oopx,*/
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+	padding:20px;
+}
+nav ul{
+	list-style:none;
+	padding-left:0px;
+}
+
+nav li{
+	display:inline;
+}
+a{
+	color: #d60f79;
+}
+
+nav	a{
+	color: #d60f79;
+	margin: 5px;
+	text-decoration: none;
+	font-size:1.5em;
+	display:inline-block;
+	background: black;
+	padding:4px;
+	border-radius: 4px;
+}
+nav a:hover{
+	color: black;
+	background: yellow;
+	border-radius: 5px;
+}
+p a{
+
+}
+h1, h2{
+	font-family: Impact;
+}
+
+figure{
+	margin: 0px;
+	background: white;
+	padding: 10px;
+}
+img{
+	width: 100%;
+}
+figcaption{
+	font-size: 10px;
+}
+
+
+footer, figcaption{
+	/*font-size:10px,*/;
+	font-size: 0.75;
+}
+
+
+
